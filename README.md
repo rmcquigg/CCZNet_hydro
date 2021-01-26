@@ -4,4 +4,4 @@ Datalogger process codes for the hydro group of the Coastal Critical Zone projec
 
 Direct questions about anything here to Rachel McQuiggan rmcquigg@udel.edu
 
-Note: Jupyter notebooks do not always render here. If it's not working for you, copy the URL and paste at https://nbviewer.jupyter.org/
+Note: Jupyter notebooks do not always render properly here. If it's not working for you, copy the URL and paste at https://nbviewer.jupyter.org/ to view.
