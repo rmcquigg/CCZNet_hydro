@@ -1,7 +1,7 @@
 ## This respository contains:
 
-Datalogger process codes for the hydro group of the Coastal Critical Zone project group. Scripts are Jupyter Notebooks, created using Google Colab, and contain components that are specific to our project and internal database.
+Datalogger process codes for the hydro group of the Coastal Critical Zone project group. Scripts are Jupyter Notebooks, created using Google Colab, and contain components that are specific to our project and internal database. Note: Jupyter notebooks do not always render properly here. If it's not working for you, copy the URL and paste at https://nbviewer.jupyter.org/ to view.
 
 Direct questions about anything here to Rachel McQuiggan rmcquigg@udel.edu
 
-Note: Jupyter notebooks do not always render properly here. If it's not working for you, copy the URL and paste at https://nbviewer.jupyter.org/ to view.
+
