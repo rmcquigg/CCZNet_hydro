@@ -1,0 +1,32 @@
+﻿The Python file LTC.py contains for following functions:
+* reformat(path, file): creates dataframe from the specified file
+* plot(df): plots the LEVEL column from the dataframe
+* r_first_rows(df, start_del): deletes a specified number of rows from the start of the dataframe
+* r_last_rows(df, end_del): deletes a specified number of rows from the end of the dataframe
+* interpolate_one(df, dt, param): interpolates one specified variable (level, temp OR con) over one row
+* interpolate_btw(df, dt_1, dt_2, param): interpolates one specified variables (level, temp  OR con) over a specified interval, the interval start date time (dt_1) and end date time (dt_2) is inclusive meaning that those rows contain values you want to interpolate (i.e. not “end cap” rows)
+* drift_cor(df, end_lev): corrects level values for sensor drift
+* sc_cor(df, start_std, start_cal, end_std, end_cal): corrects SC values for sensor drift
+* update_tabs(df, path, file, matrix, sensor, datum, interval, initials): adds all variables (level, temp, con) to both block and data tables (.csv files)
+
+
+Parameters 
+path: string
+file: string
+df: Pandas.DataFrame
+start_del: integer
+end_del: integer
+dt: date time as string, must be same format as index
+dt_1: date time as string, must be same format as index
+dt_2: date time as string, must be same format as index
+param: string, either ‘LEVEL’,’TEMPERATURE’, or ‘CONDUCTIVITY’
+end_lev: numeric, get level from Manual_msmt.gsheet
+start_std: numeric
+start_cal: numeric
+end_std: numeric
+end_cal: numeric
+matrix: string
+sensor: string
+datum: string
+interval: integer
+initial: string
