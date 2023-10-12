@@ -1,0 +1,2 @@
+﻿The Python file find_first_row.py contains a function to remove metadata header rows at the top of a datalogger csv file.
+It searched the left-most column for the text "Date", sets that row as column headers, and removed rows above.
