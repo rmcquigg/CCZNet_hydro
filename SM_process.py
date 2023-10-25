@@ -15,7 +15,7 @@ import LTC
 
 #Specify path and file name
 path='G:/Shared drives/CZN_HydroGroup/Data/preprocess_files/'
-file='MNMF2-SP_20230301_20230803.csv'
+file='FILE NAME HERE'
 
 #Read csv in as dataframe
 df=pd.read_csv(path+file,index_col='Site ID',na_values=np.nan)
@@ -29,15 +29,15 @@ st=df[siteid+'_ST'].astype(float).interpolate(axis=0,inplace=False).round(decima
 se=df[siteid+'_SE'].astype(float).interpolate(axis=0,inplace=False).round(decimals=3)
 
 #Plot the data - change label variable to whatever column name you want to plot
-label='VCLF2-SP-D'
+label='COLUMN HEADER'
 LTC.plot_smrx(df,label)
 
 #----------------------------------------------------
 #ENTER INFO INTO BLOCK AND DATA TABLES
 #----------------------------------------------------
 #Enter the variables below
-sensor_sn='T12-00064336'
-initials='ESB'
+sensor_sn='SENSOR NUMBER'
+initials='INITIALS'
 matrix='S'
 sensor='TEROS'
 datum='GS'
